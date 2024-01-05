@@ -1,0 +1,57 @@
+== Dotfiles for dev environments
+
+*_This repository contains a minimal set of ❣️ dotfiles for my development environments_*
+
+-> These files are meant to be used within *https://containers.dev[devcontainers]* and *https://github.com/features/codespaces[GitHub Codespace]* / *https://coder.com[Coder]*.
+
+* My actual https://github.com/marc-0x01/nixos-config/tree/master/home[workstations dotfiles] are all managed with `home-manager` and `Nix`, give it a look!
+* My project templates are build around `devcontainers` and `devenv`. They can be found https://github.com/dro-id[here].
+
+=== Features
+
+* 🐂 Just enough configuration to tailor the dev environment to my habits, the rest should be standardized and pinned!
+* 💲 `Bash` based for maximum compatibility with underlying containers
+* 🐚 Essentially a _minimalistic_ and _sensible_ shell configuration
+* 🚀 Uses `starship` as cross-shell prompt
+* ❌ No editor configuration, this is covered by `Visual Studio Code` (https://code.visualstudio.com/docs/editor/settings-sync[settings sync])
+* ❌ No dependencies installation, this is covered by the `devcontainers` themselves
+
+🔜 TODO
+
+* [ ] Tweak, then tweak again!
+
+=== Installation
+
+. Just run the `install.sh` script to make the symlinks. +
+This is done as part of the devcontainer bootstrap.
+[source,bash]
+----
+  ./install.sh
+----
+
+. To enable the dotfile to be it installed by `Codespace` +
+In your personnal GitHub workspace: "Settings" -> "Codespace". +
+Under "Dotfiles", select _Automatically install dotfiles so that GitHub Codespaces automatically installs your dotfiles into every new codespace you create_.
+
+=== Contributing
+
+I don't claim to be a `bash` guru, so there are certainly improvements that could be made. +
+Feel free to suggest them! 
+
+=== Acknowledgements
+
+Big thanks to all those great projects and their maintainers.
+
+* https://www.gnu.org/software/bash/[bash] - Born again powering *nix several times since 1989
+* https://starship.rs/[starship] - Awesome cross-shell prompt
+* https://containers.dev[devcontainer] - Standardizng development environment as-code
+* https://github.com/features/codespaces[GitHub Codespace] - Development environments in octosphere
+* https://coder.com[coder] - Development environments behind a firewall 
+
+=== License
+
+⚖️ link:./LICENSE[MIT]
+
+=== Authors
+
+👨🏻‍💻 https://github.com/marc-0x01[@marc-0x01]

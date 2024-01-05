@@ -1,0 +1,48 @@
+# bash aliases
+
+## shorcuts
+alias c="clear"
+alias cs="clear;ls"
+alias h="history"
+alias j="jobs -l"
+
+## overrides
+alias more="less"
+alias mkdir="mkdir -p"
+alias du="du -kh"
+alias df="df -kTh"
+alias rm="rm -i"
+alias cp="cp -i"
+alias mv="mv -i"
+alias tree='tree --dirsfirst -F'
+alias meow='cat' # just because you can
+
+## ls
+alias ll="ls -l"
+alias la="ls -la"
+alias lm="la | less"
+
+## cd 
+alias ..="cd .."
+alias ...="cd ../.."
+alias ....="cd ../../.."
+alias .....="cd ../../../.."
+alias ~="cd ~"
+
+## git
+alias gl="git log --pretty=format:'%C(yellow)%h\\ %ad%Cred%d\\ %Creset%s%Cblue\\ [%cn]' --decorate --date=short"
+alias ga="git add"
+alias gap="git add -p"
+alias gc="git commit --verbose"
+alias gca="git commit -a --verbose"
+alias gcm="git commit -m"
+alias gcam="git commit -a -m";
+alias gm="git commit --amend --verbose"
+alias gd="git diff"
+alias gds="git diff --stat"
+alias gdc="git diff --cached"
+alias gs="git status -s"
+alias gco="git checkout"
+alias gcob="git checkout -b"
+alias gb="git for-each-ref --sort='-authordate' --format='%(authordate)%09%(objectname:short)%09%(refname)' refs/heads | sed -e 's-refs/heads/--'"
+alias gla="git config -l | grep alias | cut -c 7-"
