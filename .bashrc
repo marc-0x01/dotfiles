@@ -63,5 +63,8 @@ for file in ~/.{aliases,functions,stack_specific,extra}; do
 done
 unset file
 
+## Setup direnv hook
+eval "$(direnv hook bash)"
+
 ## Setup starship prompt, keeping defaults
 eval "$(starship init bash)"
