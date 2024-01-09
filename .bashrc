@@ -59,10 +59,8 @@ export CDPATH=".:~:~/workspace"
 
 ## Load additional shell dotfiles, when available
 for file in ~/.{aliases,functions,stack_specific,extra}; do
-	printf 'Sourcing %s\n' "$file"
-	[ -r "$file" ] && [ -f "$file" ] && source "$file";
+	printf "Trying to source %s if it exists... " "$file"
+	[ -r "$file" ] && [ -f "$file" ] && source "$file" && printf "OK"
+	printf "\n"
 done
 unset file
-
-## Setup direnv hook
-eval "$(direnv hook bash)"
