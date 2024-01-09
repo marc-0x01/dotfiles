@@ -59,12 +59,10 @@ export CDPATH=".:~:~/workspace"
 
 ## Load additional shell dotfiles, when available
 for file in ~/.{aliases,functions,stack_specific,extra}; do
+	printf 'Sourcing %s\n' "$file"
 	[ -r "$file" ] && [ -f "$file" ] && source "$file";
 done
 unset file
 
 ## Setup direnv hook
 eval "$(direnv hook bash)"
-
-## Setup starship prompt, keeping defaults
-eval "$(starship init bash)"
