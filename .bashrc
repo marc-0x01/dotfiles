@@ -54,13 +54,22 @@ export HISTCONTROL="erasedups:ignoreboth"
 export HISTIGNORE="&:[ ]*:exit:ls:bg:fg:history:clear"
 export HISTTIMEFORMAT='%F %T '
 
-## Optimize directory navigation
-export CDPATH=".:~:~/workspace"
+## Optimize directory navigation (devcontainers)
+export CDPATH=".:~:/workspaces:/vscode/dotfiles"
 
 ## Load additional shell dotfiles, when available
 for file in ~/.{aliases,functions,stack_specific,extra}; do
-	printf "Trying to source %s if it exists... " "$file"
-	[ -r "$file" ] && [ -f "$file" ] && source "$file" && printf "OK"
-	printf "\n"
+	[ -r "$file" ] && [ -f "$file" ] && source "$file" 
 done
 unset file
+
+clear
+echo  ███▄ ▄███▓ ▄▄▄       ██▀███   ▄████▄  
+echo ▓██▒▀█▀ ██▒▒████▄    ▓██ ▒ ██▒▒██▀ ▀█  
+echo ▓██    ▓██░▒██  ▀█▄  ▓██ ░▄█ ▒▒▓█    ▄ 
+echo ▒██    ▒██ ░██▄▄▄▄██ ▒██▀▀█▄  ▒▓▓▄ ▄██▒
+echo ▒██▒   ░██▒ ▓█   ▓██▒░██▓ ▒██▒▒ ▓███▀ ░
+echo ░ ▒░   ░  ░ ▒▒   ▓▒█░░ ▒▓ ░▒▓░░ ░▒ ▒  ░
+echo ░  ░      ░  ▒   ▒▒ ░  ░▒ ░ ▒░  ░  ▒   
+echo ░      ░     ░   ▒     ░░   ░ ░ marc-0x01       
+echo        ░         ░  ░   ░     ░ ░ dotfiles
