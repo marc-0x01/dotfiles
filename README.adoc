@@ -12,7 +12,6 @@
 * 🐂 Just enough configuration to tailor the dev environment to my habits, the rest should be standardized and pinned!
 * 💲 `Bash` based for maximum compatibility with underlying containers
 * 🐚 Essentially a _minimalistic_ and _sensible_ shell configuration
-* 🚀 Uses `starship` as cross-shell prompt
 * ❌ No editor configuration, this is covered by `Visual Studio Code` (https://code.visualstudio.com/docs/editor/settings-sync[settings sync])
 * ❌ No dependencies installation, this is covered by the `devcontainers` themselves
 
@@ -43,7 +42,6 @@ Feel free to suggest them!
 Big thanks to all those great projects and their maintainers.
 
 * https://www.gnu.org/software/bash/[bash] - Born again powering *nix several times since 1989
-* https://starship.rs/[starship] - Awesome cross-shell prompt
 * https://containers.dev[devcontainer] - Standardizng development environment as-code
 * https://github.com/features/codespaces[GitHub Codespace] - Development environments in octosphere
 * https://coder.com[coder] - Development environments behind a firewall 
