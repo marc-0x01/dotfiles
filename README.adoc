@@ -21,16 +21,15 @@
 
 === Installation
 
-. Just run the `install.sh` script to make the symlinks. +
+* Just run the `install.sh` script to make the symlinks. +
 This is done as part of the devcontainer bootstrap.
 [source,bash]
 ----
   ./install.sh
 ----
 
-. To enable the dotfile to be it installed by `Codespace` +
-In your personnal GitHub workspace: "Settings" -> "Codespace". +
-Under "Dotfiles", select _Automatically install dotfiles so that GitHub Codespaces automatically installs your dotfiles into every new codespace you create_.
+* Enable the dotfiles in all your `Codespaces` +
+In your personnal GitHub workspace go to "Settings" -> "Codespace". and under "Dotfiles", select _Automatically install dotfiles_ so that GitHub Codespaces automatically installs your dotfiles into every new codespace you create.
 
 === Contributing
 
