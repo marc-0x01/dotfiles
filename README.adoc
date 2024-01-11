@@ -10,7 +10,7 @@
 === Features
 
 * 🐂 Just enough configuration to tailor the dev environment to my habits, the rest should be standardized and pinned!
-* 💲 `Bash` based for maximum compatibility with underlying containers
+* 💲 `Bash` and `Zsh` shells for maximum compatibility with underlying containers
 * 🐚 Essentially a _minimalistic_ and _sensible_ shell configuration
 * ❌ No editor configuration, this is covered by `Visual Studio Code` (https://code.visualstudio.com/docs/editor/settings-sync[settings sync])
 * ❌ No dependencies installation, this is covered by the `devcontainers` themselves
