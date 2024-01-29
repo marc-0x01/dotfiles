@@ -29,14 +29,12 @@ https://github.com/marc-0x01/dotfiles/graphs/contributors[image:https://img.shie
   </pre>
 	<h1>Development Dotfiles</h1>
 	<p style="text-align: center"  align="center">
-		<i>A minimal set of ❣️ dotfiles for my development environments</i>
+		<i><b>A minimal set of ❣️ dotfiles for my development environments</b></i>
 	</p>
 </div>
 ++++
 
 === About
-
-*_This repository contains a minimal set of ❣️ dotfiles for my development environments_*
 
 These files are meant to be used within *https://containers.dev[devcontainers]* and *https://github.com/features/codespaces[GitHub Codespace]* / *https://coder.com[Coder]*.
 
