@@ -1,8 +1,44 @@
-== Dotfiles for dev environments
+= README
+:doctype: article
+:repository-url: https://github.com/marc-0x01/dotfiles
+:!showtitle:
+:icons: font
+:imagesdir: docs/assets/img
+:hardbreaks-option:
+:tip-caption: :bulb:
+:note-caption: :information_source:
+:important-caption: :heavy_exclamation_mark:
+:caution-caption: :fire:
+:warning-caption: :warning:
+
+// Standard shields and technology skills
+https://github.com/marc-0x01/dotfiles/graphs/contributors[image:https://img.shields.io/github/contributors/marc-0x01/dotfiles.png?style=for-the-badge[https://img.shields.io/github/contributors/marc-0x01/dotfiles]] https://github.com/marc-0x01/dotfiles/network/members[image:https://img.shields.io/github/forks/marc-0x01/dotfiles.svg?style=for-the-badge[https://img.shields.io/github/forks/marc-0x01/dotfiles]] https://github.com/marc-0x01/dotfiles/stargazers[image:https://img.shields.io/github/stars/marc-0x01/dotfiles.svg?style=for-the-badge[https://img.shields.io/github/stars/marc-0x01/dotfiles]] https://github.com/marc-0x01/dotfiles/issues[image:https://img.shields.io/github/issues/marc-0x01/dotfiles.svg?style=for-the-badge[https://img.shields.io/github/issues/marc-0x01/dotfiles]] https://github.com/marc-0x01/dotfiles/blob/master/LICENSE.txt[image:https://img.shields.io/github/license/marc-0x01/dotfiles.svg?style=for-the-badge[https://img.shields.io/github/license/marc-0x01/dotfiles]] https://www.zsh.org[image:https://img.shields.io/badge/-zsh-grey.svg?style=for-the-badge&logo=zsh[https://img.shields.io/badge/-zsh-grey]] https://www.gnu.org/software/bash[image:https://img.shields.io/badge/-bash-grey.svg?style=for-the-badge&logo=gnubash[https://img.shields.io/badge/-bash-grey]]
+
+// Header
+
+++++
+<div style="text-align: center"  align="center">
+  <br>
+  <pre>
+██████╗  ██████╗ ████████╗███████╗██╗██╗     ███████╗███████╗
+██╔══██╗██╔═══██╗╚══██╔══╝██╔════╝██║██║     ██╔════╝██╔════╝
+██║  ██║██║   ██║   ██║   █████╗  ██║██║     █████╗  ███████╗
+██║  ██║██║   ██║   ██║   ██╔══╝  ██║██║     ██╔══╝  ╚════██║
+██████╔╝╚██████╔╝   ██║   ██║     ██║███████╗███████╗███████║
+╚═════╝  ╚═════╝    ╚═╝   ╚═╝     ╚═╝╚══════╝╚══════╝╚══════╝
+  </pre>
+	<h1>Development Dotfiles</h1>
+	<p style="text-align: center"  align="center">
+		<i>A minimal set of ❣️ dotfiles for my development environments</i>
+	</p>
+</div>
+++++
+
+=== About
 
 *_This repository contains a minimal set of ❣️ dotfiles for my development environments_*
 
--> These files are meant to be used within *https://containers.dev[devcontainers]* and *https://github.com/features/codespaces[GitHub Codespace]* / *https://coder.com[Coder]*.
+These files are meant to be used within *https://containers.dev[devcontainers]* and *https://github.com/features/codespaces[GitHub Codespace]* / *https://coder.com[Coder]*.
 
 * My actual https://github.com/marc-0x01/nixos-config/tree/master/home[workstations dotfiles] are all managed with `home-manager` and `Nix`, give it a look!
 * My project templates are build around `devcontainers` and `devenv`. They can be found https://github.com/dro-id[here].
