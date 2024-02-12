@@ -16,20 +16,20 @@
 ++++
 <div style="text-align: center"  align="center">
   <!-- Repository statistics-->
-  <a href="https://github.com/dro-id/blank-template/graphs/contributors">
-  	<img src="https://img.shields.io/github/contributors/dro-id/blank-template.png?style=for-the-badge" alt="https://img.shields.io/github/contributors/dro-id/blank-template">
+  <a href="https://github.com/marc-0x01/dotfiles/graphs/contributors">
+  	<img src="https://img.shields.io/github/contributors/marc-0x01/dotfiles.png?style=for-the-badge" alt="https://img.shields.io/github/contributors/marc-0x01/dotfiles">
   </a>
-  <a href="https://github.com/dro-id/blank-template/network/members">
-  	<img src="https://img.shields.io/github/forks/dro-id/blank-template.svg?style=for-the-badge" alt="https://img.shields.io/github/forks/dro-id/blank-template">
+  <a href="https://github.com/marc-0x01/dotfiles/network/members">
+  	<img src="https://img.shields.io/github/forks/marc-0x01/dotfiles.svg?style=for-the-badge" alt="https://img.shields.io/github/forks/marc-0x01/dotfiles">
   </a>
-  <a href="https://github.com/dro-id/blank-template/stargazers">
-  	<img src="https://img.shields.io/github/stars/dro-id/blank-template.svg?style=for-the-badge" alt="https://img.shields.io/github/stars/dro-id/blank-template">
+  <a href="https://github.com/marc-0x01/dotfiles/stargazers">
+  	<img src="https://img.shields.io/github/stars/marc-0x01/dotfiles.svg?style=for-the-badge" alt="https://img.shields.io/github/stars/marc-0x01/dotfiles">
   </a>
-  <a href="https://github.com/dro-id/blank-template/issues">
-  	<img src="https://img.shields.io/github/issues/dro-id/blank-template.svg?style=for-the-badge" alt="https://img.shields.io/github/issues/dro-id/blank-template">
+  <a href="https://github.com/marc-0x01/dotfiles/issues">
+  	<img src="https://img.shields.io/github/issues/marc-0x01/dotfiles.svg?style=for-the-badge" alt="https://img.shields.io/github/issues/marc-0x01/dotfiles">
   </a>
-  <a href="https://github.com/dro-id/blank-template/blob/master/LICENSE.txt">
-  	<img src="https://img.shields.io/github/license/dro-id/blank-template.svg?style=for-the-badge" alt="https://img.shields.io/github/license/dro-id/blank-template">
+  <a href="https://github.com/marc-0x01/dotfiles/blob/master/LICENSE.txt">
+  	<img src="https://img.shields.io/github/license/marc-0x01/dotfiles.svg?style=for-the-badge" alt="https://img.shields.io/github/license/marc-0x01/dotfiles">
   </a>
   <!-- Main Technologies -->
   <a href="https://www.zsh.org">
