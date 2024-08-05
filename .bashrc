@@ -57,6 +57,9 @@ export HISTTIMEFORMAT='%F %T '
 ## Optimize directory navigation (devcontainers)
 export CDPATH=".:~:/workspaces:/vscode/dotfiles"
 
+## Hook direnv
+eval "$(direnv hook bash)"
+
 ## Load additional shell dotfiles, when available
 for file in ~/.{aliases,functions,extra}; do
 	[ -r "$file" ] && [ -f "$file" ] && source "$file" 

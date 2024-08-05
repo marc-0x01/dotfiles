@@ -64,6 +64,9 @@ autoload -U compinit; compinit
 ## Optimize directory navigation (devcontainers)
 export CDPATH=".:~:/workspaces:/vscode/dotfiles"
 
+## Hook direnv
+eval "$(direnv hook zsh)"
+
 ## Load additional shell dotfiles, when available
 for file in ~/.{aliases,functions,extra}; do
 	[ -r "$file" ] && [ -f "$file" ] && source "$file" 
