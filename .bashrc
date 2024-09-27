@@ -44,7 +44,6 @@ bind -m vi-insert "\C-p:previous-history"
 bind -m vi-insert "\C-n:next-history"
 bind -m vi-insert "\C-r:reverse-search-history"
 bind -m vi-insert "\C-g:abort"
-bind -m vi-insert "\C-u:undo"
 
 ## Setup infinite history
 export HISTSIZE=

@@ -47,7 +47,6 @@ bindkey "^p" up-line-or-history
 bindkey "^n" down-line-or-history
 bindkey "^r" history-search-backward
 bindkey "^g" send-break
-bindkey "^u" undo
 
 ## Setup infinite history
 export HISTSIZE=1000
